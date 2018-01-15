@@ -11,7 +11,6 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     }
 });
 
-i
 
 // When the extension is installed or upgraded ...
 chrome.runtime.onInstalled.addListener(function() {
